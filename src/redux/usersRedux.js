@@ -7,10 +7,20 @@ const FETCH_USERS = createActionName('FETCH_USERS');
 //action creators
 export const fetchUsers = (payload) => ({ type: FETCH_USERS, payload });
 
+export const fetchTables = () => {
+  return (dispatch) => {
+    fetch('https://jsonplaceholder.typicode.com/users')
+      .then((res) => res.json())
+      .then((tables) => {
+        dispatch(fetchUsers(tables));
+      });
+  };
+};
+
 const usersReducer = (statePart = [], action) => {
   switch (action.type) {
     case FETCH_USERS:
-      return [...statePart];
+      return [...action.payload];
     default:
       return statePart;
   }
