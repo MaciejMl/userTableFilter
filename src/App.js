@@ -1,7 +1,10 @@
+import UserTable from './components/pages/UserTable/UserTable';
+
 function App() {
   return (
     <div>
-      <h1>Begining</h1>
+      <h1>My Table</h1>
+      <UserTable />
     </div>
   );
 }
