@@ -1,0 +1,9 @@
+.custom-table {
+  border-radius: 8px;
+  overflow: hidden;
+
+  thead tr:first-of-type {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+}

@@ -1,0 +1,32 @@
+.root {
+  span {
+    font-weight: lighter;
+    align-self: center;
+  }
+}
+.nameInput {
+  max-width: 200px;
+  font-size: 15px;
+}
+.search {
+  margin-right: 35px;
+  margin-left: -10px;
+}
+
+.searchCont {
+  display: flex;
+  align-items: center;
+
+  @media (max-width: 430px) {
+    flex-direction: column;
+  }
+}
+
+.inputCont {
+  display: flex;
+  align-items: center;
+
+  @media (max-width: 430px) {
+    flex-direction: column;
+  }
+}
