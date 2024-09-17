@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/userTableFilter/static/css/main.7d923a81.css",
+    "main.js": "/userTableFilter/static/js/main.c8a68fd7.js",
+    "index.html": "/userTableFilter/index.html",
+    "main.7d923a81.css.map": "/userTableFilter/static/css/main.7d923a81.css.map",
+    "main.c8a68fd7.js.map": "/userTableFilter/static/js/main.c8a68fd7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d923a81.css",
+    "static/js/main.c8a68fd7.js"
+  ]
+}
